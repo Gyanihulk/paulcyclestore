@@ -5,7 +5,7 @@ import React, {
   children,
   useEffect,
 } from "react";
-import { getCategories, getLandingPage, getTestimonials } from "../lib/sanity";
+import { getBrand, getCategories, getLandingPage, getTestimonials } from "../lib/sanity";
 
 const Context = createContext();
 
