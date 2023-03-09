@@ -10,17 +10,17 @@ import Testimonials from "../components/home/Testimonials";
 import Footer from "../components/Footer";
 
 export default function Home() {
+  
   return (
     <>
-   
-      <Header />
+    <Head>
+    <title>Paul Cyle Store</title>
+    </Head>
       <HeroSection />
-      <i class="bi bi-twitter"/>
       <ShopGrid />
 
       <Services />
       <Testimonials />
-      <Footer />
     </>
   );
 }

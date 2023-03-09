@@ -1,10 +1,14 @@
 import React from "react";
 import Link from 'next/link'
+import { useSanityContext } from "../context/SanityContext";
+import { urlFor } from "../lib/sanity";
 const Header = () => {
+  const { landingPage } = useSanityContext();
   return (
     <header id="header" class="fixed-top header-inner-pages">
       <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo">
+      {    landingPage[0]?<img src={urlFor(landingPage[0].logo)}></img>:<></>}
           <Link href="/">Paul Cycle Store</Link>
         </h1>
 

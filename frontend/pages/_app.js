@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+import { PageLayout } from "../components/PageLayout";
+import { SanityContext } from "../context/SanityContext";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <SanityContext>
+      <PageLayout>
+        <Component {...pageProps} />
+      </PageLayout>
+    </SanityContext>
+  );
 }
 
-export default MyApp
+export default MyApp;

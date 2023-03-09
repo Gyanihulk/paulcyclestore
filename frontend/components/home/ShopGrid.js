@@ -1,11 +1,13 @@
 import React from "react";
+import { useSanityContext } from "../../context/SanityContext";
 
 const ShopGrid = () => {
+  const {categories}=useSanityContext()
   return (
     <section id="portfolio" class="portfolio">
       <div class="container-fluid">
         <div class="section-title">
-          <h2>Portfolio</h2>
+          <h2>Shop</h2>
           <h3>
             Check our <span>Shop</span>
           </h3>
@@ -20,12 +22,13 @@ const ShopGrid = () => {
               <li data-filter="*" class="filter-active">
                 All
               </li>
-              <li data-filter=".filter-app">By Brands</li>
-              <li data-filter=".filter-card">By Categories</li>
+              <li>By Brands</li>
+              <li>By Categories</li>
             </ul>
           </div>
         </div>
 
+       
         <div class="row portfolio-container justify-content-center">
           <div class="col-xl-10">
             <div class="row">

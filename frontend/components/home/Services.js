@@ -8,7 +8,6 @@ const Services = () => {
       <div class="section-title">
         <h2>Services</h2>
         <h3>Check our <span>Services</span></h3>
-        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
       </div>
 
       <div class="row justify-content-center">
@@ -16,13 +15,13 @@ const Services = () => {
           <div class="row">
             <div class="col-lg-6 col-md-6 icon-box">
               <div class="icon"><i class="ri-pie-chart-line"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title"><a href="">Sale</a></h4>
+              <p class="description">Fulfilling the needs of every indivitual ride since 1965. From manual to electric hybrid bikes</p>
             </div>
             <div class="col-lg-6 col-md-6 icon-box">
               <div class="icon"><i class="ri-stack-line"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <h4 class="title"><a href="">Repair and maintenance</a></h4>
+              <p class="description">Have specialised worker for different types of bikes.From Repairing a electric bike to a kids tricycle </p>
             </div>
             
           </div>
