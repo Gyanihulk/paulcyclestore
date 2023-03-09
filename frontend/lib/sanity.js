@@ -25,6 +25,10 @@ export async function getCategories() {
     const landgetLandingPage = await client.fetch(`*[_type == "landingPage"]`)
     return landgetLandingPage
   }
+  export async function getBrand() {
+    const brand = await client.fetch(`*[_type == "brand"]`)
+    return brand
+  }
   export async function getTestimonials() {
     const testimonial = await client.fetch(`*[_type == "testimonial"]`)
     return testimonial

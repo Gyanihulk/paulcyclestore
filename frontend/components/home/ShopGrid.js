@@ -2,7 +2,8 @@ import React from "react";
 import { useSanityContext } from "../../context/SanityContext";
 
 const ShopGrid = () => {
-  const {categories}=useSanityContext()
+  const {categories, brand}=useSanityContext()
+  console.log(brand)
   return (
     <section id="portfolio" class="portfolio">
       <div class="container-fluid">
