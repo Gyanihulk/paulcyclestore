@@ -7,11 +7,10 @@ const ShopGrid = () => {
         <div class="section-title">
           <h2>Portfolio</h2>
           <h3>
-            Check our <span>Portfolio</span>
+            Check our <span>Shop</span>
           </h3>
           <p>
-            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-            adipisci expedita at voluptas atque vitae autem.
+            We have more than 1500 bike in stock of more than 25 brands to fulfill your needs and desire both at the same time .
           </p>
         </div>
 
@@ -21,9 +20,8 @@ const ShopGrid = () => {
               <li data-filter="*" class="filter-active">
                 All
               </li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">By Brands</li>
+              <li data-filter=".filter-card">By Categories</li>
             </ul>
           </div>
         </div>
