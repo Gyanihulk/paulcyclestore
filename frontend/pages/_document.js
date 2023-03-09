@@ -8,7 +8,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href="/icon.png"></link>
           <meta name="theme-color" content="#fff" />
-          <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+          <script src="assets/vendor/purecounter/purecounter_vanilla.js" async ></script>
 
           <link
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -44,12 +44,12 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-          <script src="public/assets/vendor/glightbox/js/glightbox.min.js"></script>
-          <script src="public/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-          <script src="public/assets/vendor/swiper/swiper-bundle.min.js"></script>
-          <script src="public/assets/vendor/waypoints/noframework.waypoints.js"></script>
-          <script src="public/assets/vendor/php-email-form/validate.js"></script>
+          <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" async ></script>
+          <script src="public/assets/vendor/glightbox/js/glightbox.min.js" async ></script>
+          <script src="public/assets/vendor/isotope-layout/isotope.pkgd.min.js" async ></script>
+          <script src="public/assets/vendor/swiper/swiper-bundle.min.js" async ></script>
+          <script src="public/assets/vendor/waypoints/noframework.waypoints.js" async ></script>
+          <script src="public/assets/vendor/php-email-form/validate.js" async ></script>
         </body>
       </Html>
     );

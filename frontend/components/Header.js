@@ -1,11 +1,11 @@
 import React from "react";
-
+import Link from 'next/link'
 const Header = () => {
   return (
     <header id="header" class="fixed-top header-inner-pages">
       <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo">
-          <a href="/">Paul Cycle Store</a>
+          <Link href="/">Paul Cycle Store</Link>
         </h1>
 
         <nav id="navbar" class="navbar">
